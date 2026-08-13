@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://imgs.search.brave.com/8zxGbTgizdSGQu85WcaQt5zi3Fx8h0PJO-AHf1IKzJ0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxNS8x/MS8wMy8wOC81My9j/YWxjdWxhdG9yLTEw/MTk3NDNfNjQwLmpw/Zw">
+    <link rel="stylesheet" href="reconnect.css">
+    <script src="connect.js" defer></script>
+
+</head>
+<body>
+    <section>
+        <table>
+            <tr>
+                <th colspan="8" class="th1">
+                    <input type="number" placeholder="Enter a number" id="numberInput1">
+                    <input type="number" placeholder="Enter a number" id="numberInput2">
+                    <input type="text" placeholder="Enter an operator" id="operatorInput">
+                    <button type="button" id="calculateButton" onclick="calculate()">Calculate</button>
+                    <input type="text" placeholder="Result" id="resultInput" readonly>
+                </th>
+            </tr>
+            <tr>
+                <td><button type="button" class="btn" id="clearButton">clear</button></td>
+                <td><button type="button" class="btn" data-op="+">+</button></td>
+                <td><button type="button" class="btn" data-op="-">-</button></td>
+                <td><button type="button" class="btn" data-op="*">*</button></td>
+                <td><button type="button" class="btn" data-op="/">/</button></td>
+                <td><button type="button" class="btn" id="equalsButton">=</button></td>
+                <td><button type="button" class="btn" id="dotButton">.</button></td>
+                <td><button type="button" class="btn" id="deleteButton">delete</button></td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+</html>
